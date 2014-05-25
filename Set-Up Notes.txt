@@ -1,0 +1,14 @@
+Cookie name needs to be set in login.php, functions.php & logout.php
+
+Username & password are stored in login.php (or alternatively could reference a database)
+
+Page.php includes functions.php (to check for cookie / successful login)
+
+Login script executes itself once it is submitted
+
+Login script redirects to page.php upon successful login
+
+Cookies are flushed
+
+
+Page2.php is a self-contained login system
